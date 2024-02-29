@@ -60,3 +60,7 @@ int Stack::pop()
 }
    return retVal;
 }
+
+int Stack::sizeLength(){
+    return size;
+}

@@ -15,7 +15,7 @@ class Stack
 {
   private:
      int size;
-int top;
+     int top;
      int* values;
   public:
      Stack(int size = DEFAULT_SIZE);
@@ -24,6 +24,7 @@ int top;
      bool isEmpty();
      void push(int);
      int pop();
+    int sizeLength();
 };
 
 #endif /* stack_hpp */

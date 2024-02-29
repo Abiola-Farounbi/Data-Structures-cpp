@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0C23B8C2B27111700574F75 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0C23B8B2B27111700574F75 /* main.cpp */; };
+		F0CBFCBB2B2A14CE005CE3C9 /* MusicPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0CBFCB92B2A14CE005CE3C9 /* MusicPlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F0C23B882B27111700574F75 /* MusicPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MusicPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C23B8B2B27111700574F75 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F0CBFCB92B2A14CE005CE3C9 /* MusicPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MusicPlayer.cpp; sourceTree = "<group>"; };
+		F0CBFCBA2B2A14CE005CE3C9 /* MusicPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MusicPlayer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F0C23B8B2B27111700574F75 /* main.cpp */,
+				F0CBFCB92B2A14CE005CE3C9 /* MusicPlayer.cpp */,
+				F0CBFCBA2B2A14CE005CE3C9 /* MusicPlayer.hpp */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CBFCBB2B2A14CE005CE3C9 /* MusicPlayer.cpp in Sources */,
 				F0C23B8C2B27111700574F75 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
